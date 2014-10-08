@@ -14,8 +14,8 @@ $('input[type="checkbox"], input[type="radio"]').rcStyler();
 $('input[type="checkbox"], input[type="radio"]').rcStyler(768);
 ```
 
-**Native**
+####Native
 ![screen 1](https://raw.githubusercontent.com/SlawomirZaziablo/rcstyler/master/img/screen-1.png)
 
-**Styled**
+####Styled
 ![screen 2](https://raw.githubusercontent.com/SlawomirZaziablo/rcstyler/master/img/screen-2.png)
