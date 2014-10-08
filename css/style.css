@@ -1,0 +1,38 @@
+.container {
+	color: #333;
+	font-family: Arial;
+	margin: 50px auto;
+	width: 700px;
+}
+.container h1 {
+	margin-bottom: 40px;
+	color: #666;
+}
+.checkbox-group, .radio-groups {
+	float: left;
+	width: 50%;
+}
+.radio-groups {
+	float: right;
+}
+.radio-group {
+	margin-bottom: 30px;
+}
+.checkbox-label {
+	display: inline-block;
+}
+.checkbox-input {
+	margin-bottom: 30px;
+}
+.checkbox-input .rc-container {
+	display: inline-block;
+}
+
+@media(max-width: 900px) {
+	.checkbox-input label {
+		display: inline-block;
+		margin-right: 10px;
+		padding-top: 8px;
+		vertical-align: top;
+	}
+}

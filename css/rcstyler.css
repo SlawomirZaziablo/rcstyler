@@ -1,0 +1,54 @@
+.rc-container .rc-radio {
+	background: #fff;
+	border: 1px solid #ccc;
+	color: #999;
+	cursor: pointer;
+	display: inline-block;
+	font-weight: bold;
+	margin-right: 3px;
+	padding: 7px 15px 5px;
+	font-size: 14px;
+}
+.rc-container .rc-radio.checked {
+	background: #9CCA62;
+	color: #fff;
+}
+.rc-hidden { display: none !important; }
+
+.rc-container .rc-radio:first-child {
+	border-radius: 5px 0 0 5px;
+}
+.rc-container .rc-radio:last-child {
+	border-radius:  0 5px 5px 0;
+}
+.rc-container .rc-checkbox-mark {
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.rc-container .rc-checkbox-mark span {
+	display: none;
+	font-size: 20px;
+	width: 30px;
+	text-align: center;
+	font-weight: bold;
+	position: absolute;
+	margin-left: -1px;
+	top: 6px;
+	line-height: 1;
+	color: #8DC24B;
+}
+.rc-container .checked .rc-checkbox-mark span {
+	display: block;
+}
+.rc-checkbox-label {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 7px;
+}
