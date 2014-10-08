@@ -2,6 +2,7 @@ RC Styler
 ========
 
 Checkboxes and radio buttons styler for mobile devices - jQuery plugin!
+
 It styles native controls when the screen is smaller than the threshold value (768px by default)
 
 Basic usage
