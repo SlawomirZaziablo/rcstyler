@@ -2,6 +2,6 @@
 	'use strict';
 
 	$(document).ready(function () {
-		$('input[type="checkbox"], input[type="radio"]').rcStyler(990);
+		$('input[type="checkbox"], input[type="radio"]').rcStyler(768);
 	});
 })(jQuery);
